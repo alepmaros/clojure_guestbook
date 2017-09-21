@@ -1,0 +1,209 @@
+2017-09-07 15:08:09,930 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-09-07 15:08:10,959 [main] INFO  migratus.core - Starting migrations 
+2017-09-07 15:08:11,184 [main] INFO  migratus.database - creating migration table 'schema_migrations' 
+2017-09-07 15:08:11,224 [main] DEBUG migratus.migrations - Looking for migrations in in  #object[java.io.File 0x4bd06a2f /home/apm/udesc/odaw/clojure_guestbook/guestbook/resources/migrations] 
+2017-09-07 15:08:11,254 [main] INFO  migratus.core - Running up for [20170904174421] 
+2017-09-07 15:08:11,254 [main] INFO  migratus.core - Up 20170904174421-add-users-table 
+2017-09-07 15:08:11,270 [main] DEBUG migratus.migration.sql - found 1 up migrations 
+2017-09-07 15:08:11,286 [main] DEBUG migratus.database - marking 20170904174421 complete 
+2017-09-07 15:08:11,294 [main] INFO  migratus.core - Ending migrations 
+2017-09-07 15:16:37,800 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-09-07 15:16:38,751 [main] INFO  guestbook.env - 
+-=[guestbook started successfully using the development profile]=- 
+2017-09-07 15:16:38,870 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-09-07 15:16:38,961 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-09-07 15:16:39,240 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-09-07 15:16:39,241 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-09-07 15:16:39,269 [main] INFO  guestbook.core - #'guestbook.config/env started 
+2017-09-07 15:16:39,269 [main] INFO  guestbook.core - #'guestbook.handler/init-app started 
+2017-09-07 15:16:39,269 [main] INFO  guestbook.core - #'guestbook.core/http-server started 
+2017-09-07 15:16:39,269 [main] INFO  guestbook.core - #'guestbook.core/repl-server started 
+2017-09-07 15:16:46,640 [Thread-2] INFO  luminus.repl-server - nREPL server stopped 
+2017-09-07 15:16:46,641 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options. 
+2017-09-07 15:16:46,644 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2017-09-07 15:16:46,644 [Thread-2] INFO  guestbook.env - 
+-=[guestbook has shut down successfully]=- 
+2017-09-07 15:16:46,645 [Thread-2] INFO  guestbook.core - #'guestbook.core/repl-server stopped 
+2017-09-07 15:16:46,645 [Thread-2] INFO  guestbook.core - #'guestbook.core/http-server stopped 
+2017-09-07 15:16:46,645 [Thread-2] INFO  guestbook.core - #'guestbook.handler/init-app stopped 
+2017-09-07 15:30:29,758 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-09-07 15:30:30,743 [main] INFO  guestbook.env - 
+-=[guestbook started successfully using the development profile]=- 
+2017-09-07 15:30:30,811 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-09-07 15:30:30,864 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-09-07 15:30:30,951 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-09-07 15:30:30,952 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-09-07 15:30:30,962 [main] INFO  guestbook.core - #'guestbook.config/env started 
+2017-09-07 15:30:30,963 [main] INFO  guestbook.core - #'guestbook.db.core/*db* started 
+2017-09-07 15:30:30,963 [main] INFO  guestbook.core - #'guestbook.handler/init-app started 
+2017-09-07 15:30:30,963 [main] INFO  guestbook.core - #'guestbook.core/http-server started 
+2017-09-07 15:30:30,963 [main] INFO  guestbook.core - #'guestbook.core/repl-server started 
+2017-09-07 15:32:48,723 [Thread-3] INFO  luminus.repl-server - nREPL server stopped 
+2017-09-07 15:32:48,728 [Thread-3] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options. 
+2017-09-07 15:32:48,731 [Thread-3] INFO  luminus.http-server - HTTP server stopped 
+2017-09-07 15:32:48,732 [Thread-3] INFO  guestbook.env - 
+-=[guestbook has shut down successfully]=- 
+2017-09-07 15:32:48,768 [Thread-3] INFO  guestbook.core - #'guestbook.core/repl-server stopped 
+2017-09-07 15:32:48,768 [Thread-3] INFO  guestbook.core - #'guestbook.core/http-server stopped 
+2017-09-07 15:32:48,768 [Thread-3] INFO  guestbook.core - #'guestbook.handler/init-app stopped 
+2017-09-07 15:32:48,768 [Thread-3] INFO  guestbook.core - #'guestbook.db.core/*db* stopped 
+2017-09-07 15:33:01,266 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-09-07 15:33:01,944 [main] INFO  guestbook.env - 
+-=[guestbook started successfully using the development profile]=- 
+2017-09-07 15:33:02,027 [main] INFO  luminus.http-server - starting HTTP server on port 3005 
+2017-09-07 15:33:02,096 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-09-07 15:33:02,190 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-09-07 15:33:02,191 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-09-07 15:33:02,204 [main] INFO  guestbook.core - #'guestbook.config/env started 
+2017-09-07 15:33:02,205 [main] INFO  guestbook.core - #'guestbook.db.core/*db* started 
+2017-09-07 15:33:02,205 [main] INFO  guestbook.core - #'guestbook.handler/init-app started 
+2017-09-07 15:33:02,205 [main] INFO  guestbook.core - #'guestbook.core/http-server started 
+2017-09-07 15:33:02,205 [main] INFO  guestbook.core - #'guestbook.core/repl-server started 
+2017-09-07 15:34:43,920 [Thread-3] INFO  luminus.repl-server - nREPL server stopped 
+2017-09-07 15:34:43,921 [Thread-3] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:152733855, ignoring options. 
+2017-09-07 15:34:43,928 [Thread-3] INFO  luminus.http-server - HTTP server stopped 
+2017-09-07 15:34:43,929 [Thread-3] INFO  guestbook.env - 
+-=[guestbook has shut down successfully]=- 
+2017-09-07 15:34:43,939 [Thread-3] INFO  guestbook.core - #'guestbook.core/repl-server stopped 
+2017-09-07 15:34:43,939 [Thread-3] INFO  guestbook.core - #'guestbook.core/http-server stopped 
+2017-09-07 15:34:43,939 [Thread-3] INFO  guestbook.core - #'guestbook.handler/init-app stopped 
+2017-09-07 15:34:43,939 [Thread-3] INFO  guestbook.core - #'guestbook.db.core/*db* stopped 
+2017-09-07 16:11:00,736 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-09-07 16:11:01,475 [main] INFO  guestbook.env - 
+-=[guestbook started successfully using the development profile]=- 
+2017-09-07 16:11:01,548 [main] INFO  luminus.http-server - starting HTTP server on port 3005 
+2017-09-07 16:11:01,606 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-09-07 16:11:01,693 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-09-07 16:11:01,694 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-09-07 16:11:01,705 [main] INFO  guestbook.core - #'guestbook.config/env started 
+2017-09-07 16:11:01,705 [main] INFO  guestbook.core - #'guestbook.db.core/*db* started 
+2017-09-07 16:11:01,705 [main] INFO  guestbook.core - #'guestbook.handler/init-app started 
+2017-09-07 16:11:01,705 [main] INFO  guestbook.core - #'guestbook.core/http-server started 
+2017-09-07 16:11:01,705 [main] INFO  guestbook.core - #'guestbook.core/repl-server started 
+2017-09-07 16:11:08,343 [Thread-3] INFO  luminus.repl-server - nREPL server stopped 
+2017-09-07 16:11:08,344 [Thread-3] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:152733855, ignoring options. 
+2017-09-07 16:11:08,347 [Thread-3] INFO  luminus.http-server - HTTP server stopped 
+2017-09-07 16:11:08,347 [Thread-3] INFO  guestbook.env - 
+-=[guestbook has shut down successfully]=- 
+2017-09-07 16:11:08,358 [Thread-3] INFO  guestbook.core - #'guestbook.core/repl-server stopped 
+2017-09-07 16:11:08,358 [Thread-3] INFO  guestbook.core - #'guestbook.core/http-server stopped 
+2017-09-07 16:11:08,358 [Thread-3] INFO  guestbook.core - #'guestbook.handler/init-app stopped 
+2017-09-07 16:11:08,358 [Thread-3] INFO  guestbook.core - #'guestbook.db.core/*db* stopped 
+2017-09-07 18:15:17,781 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-09-07 18:15:18,819 [main] INFO  guestbook.env - 
+-=[guestbook started successfully using the development profile]=- 
+2017-09-07 18:15:18,912 [main] INFO  luminus.http-server - starting HTTP server on port 3005 
+2017-09-07 18:15:18,964 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-09-07 18:15:19,103 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-09-07 18:15:19,104 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-09-07 18:15:19,114 [main] INFO  guestbook.core - #'guestbook.config/env started 
+2017-09-07 18:15:19,115 [main] INFO  guestbook.core - #'guestbook.db.core/*db* started 
+2017-09-07 18:15:19,115 [main] INFO  guestbook.core - #'guestbook.handler/init-app started 
+2017-09-07 18:15:19,115 [main] INFO  guestbook.core - #'guestbook.core/http-server started 
+2017-09-07 18:15:19,115 [main] INFO  guestbook.core - #'guestbook.core/repl-server started 
+2017-09-07 18:15:43,867 [Thread-3] INFO  luminus.repl-server - nREPL server stopped 
+2017-09-07 18:15:43,868 [Thread-3] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:152733855, ignoring options. 
+2017-09-07 18:15:43,872 [Thread-3] INFO  luminus.http-server - HTTP server stopped 
+2017-09-07 18:15:43,872 [Thread-3] INFO  guestbook.env - 
+-=[guestbook has shut down successfully]=- 
+2017-09-07 18:15:43,882 [Thread-3] INFO  guestbook.core - #'guestbook.core/repl-server stopped 
+2017-09-07 18:15:43,882 [Thread-3] INFO  guestbook.core - #'guestbook.core/http-server stopped 
+2017-09-07 18:15:43,882 [Thread-3] INFO  guestbook.core - #'guestbook.handler/init-app stopped 
+2017-09-07 18:15:43,882 [Thread-3] INFO  guestbook.core - #'guestbook.db.core/*db* stopped 
+2017-09-07 18:15:57,387 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-09-07 18:15:57,942 [main] INFO  migratus.core - Starting migrations 
+2017-09-07 18:15:58,148 [main] DEBUG migratus.migrations - Looking for migrations in in  #object[java.io.File 0x64c9a84b /home/apm/udesc/odaw/clojure_guestbook/guestbook/resources/migrations] 
+2017-09-07 18:15:58,171 [main] INFO  migratus.core - Ending migrations 
+2017-09-07 18:16:15,564 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-09-07 18:16:16,284 [main] INFO  guestbook.env - 
+-=[guestbook started successfully using the development profile]=- 
+2017-09-07 18:16:16,366 [main] INFO  luminus.http-server - starting HTTP server on port 3005 
+2017-09-07 18:16:16,415 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-09-07 18:16:16,494 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-09-07 18:16:16,495 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-09-07 18:16:16,505 [main] INFO  guestbook.core - #'guestbook.config/env started 
+2017-09-07 18:16:16,505 [main] INFO  guestbook.core - #'guestbook.db.core/*db* started 
+2017-09-07 18:16:16,506 [main] INFO  guestbook.core - #'guestbook.handler/init-app started 
+2017-09-07 18:16:16,506 [main] INFO  guestbook.core - #'guestbook.core/http-server started 
+2017-09-07 18:16:16,506 [main] INFO  guestbook.core - #'guestbook.core/repl-server started 
+2017-09-07 18:16:50,940 [Thread-3] INFO  luminus.repl-server - nREPL server stopped 
+2017-09-07 18:16:50,941 [Thread-3] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:152733855, ignoring options. 
+2017-09-07 18:16:50,944 [Thread-3] INFO  luminus.http-server - HTTP server stopped 
+2017-09-07 18:16:50,945 [Thread-3] INFO  guestbook.env - 
+-=[guestbook has shut down successfully]=- 
+2017-09-07 18:16:50,955 [Thread-3] INFO  guestbook.core - #'guestbook.core/repl-server stopped 
+2017-09-07 18:16:50,955 [Thread-3] INFO  guestbook.core - #'guestbook.core/http-server stopped 
+2017-09-07 18:16:50,955 [Thread-3] INFO  guestbook.core - #'guestbook.handler/init-app stopped 
+2017-09-07 18:16:50,955 [Thread-3] INFO  guestbook.core - #'guestbook.db.core/*db* stopped 
+2017-09-07 18:17:04,689 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-09-07 18:17:35,177 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-09-07 18:17:35,620 [main] INFO  migratus.core - Starting migrations 
+2017-09-07 18:17:35,779 [main] INFO  migratus.database - creating migration table 'schema_migrations' 
+2017-09-07 18:17:35,813 [main] DEBUG migratus.migrations - Looking for migrations in in  #object[java.io.File 0x7524241d /home/apm/udesc/odaw/clojure_guestbook/guestbook/resources/migrations] 
+2017-09-07 18:17:35,849 [main] INFO  migratus.core - Running up for [20170904174421] 
+2017-09-07 18:17:35,850 [main] INFO  migratus.core - Up 20170904174421-add-users-table 
+2017-09-07 18:17:35,866 [main] DEBUG migratus.migration.sql - found 1 up migrations 
+2017-09-07 18:17:35,882 [main] DEBUG migratus.database - marking 20170904174421 complete 
+2017-09-07 18:17:35,890 [main] INFO  migratus.core - Ending migrations 
+2017-09-07 18:17:48,728 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-09-07 18:17:49,473 [main] INFO  guestbook.env - 
+-=[guestbook started successfully using the development profile]=- 
+2017-09-07 18:17:49,545 [main] INFO  luminus.http-server - starting HTTP server on port 3005 
+2017-09-07 18:17:49,605 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-09-07 18:17:49,702 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-09-07 18:17:49,703 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-09-07 18:17:49,717 [main] INFO  guestbook.core - #'guestbook.config/env started 
+2017-09-07 18:17:49,718 [main] INFO  guestbook.core - #'guestbook.db.core/*db* started 
+2017-09-07 18:17:49,718 [main] INFO  guestbook.core - #'guestbook.handler/init-app started 
+2017-09-07 18:17:49,718 [main] INFO  guestbook.core - #'guestbook.core/http-server started 
+2017-09-07 18:17:49,718 [main] INFO  guestbook.core - #'guestbook.core/repl-server started 
+2017-09-07 18:17:58,998 [Thread-3] INFO  luminus.repl-server - nREPL server stopped 
+2017-09-07 18:17:58,999 [Thread-3] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:152733855, ignoring options. 
+2017-09-07 18:17:59,002 [Thread-3] INFO  luminus.http-server - HTTP server stopped 
+2017-09-07 18:17:59,002 [Thread-3] INFO  guestbook.env - 
+-=[guestbook has shut down successfully]=- 
+2017-09-07 18:17:59,011 [Thread-3] INFO  guestbook.core - #'guestbook.core/repl-server stopped 
+2017-09-07 18:17:59,012 [Thread-3] INFO  guestbook.core - #'guestbook.core/http-server stopped 
+2017-09-07 18:17:59,012 [Thread-3] INFO  guestbook.core - #'guestbook.handler/init-app stopped 
+2017-09-07 18:17:59,012 [Thread-3] INFO  guestbook.core - #'guestbook.db.core/*db* stopped 
+2017-09-07 18:19:02,143 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-09-07 18:19:02,881 [main] INFO  guestbook.env - 
+-=[guestbook started successfully using the development profile]=- 
+2017-09-07 18:19:02,956 [main] INFO  luminus.http-server - starting HTTP server on port 3005 
+2017-09-07 18:19:03,033 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-09-07 18:19:03,171 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-09-07 18:19:03,173 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-09-07 18:19:03,191 [main] INFO  guestbook.core - #'guestbook.config/env started 
+2017-09-07 18:19:03,191 [main] INFO  guestbook.core - #'guestbook.db.core/*db* started 
+2017-09-07 18:19:03,191 [main] INFO  guestbook.core - #'guestbook.handler/init-app started 
+2017-09-07 18:19:03,191 [main] INFO  guestbook.core - #'guestbook.core/http-server started 
+2017-09-07 18:19:03,191 [main] INFO  guestbook.core - #'guestbook.core/repl-server started 
+2017-09-07 18:20:41,818 [Thread-3] INFO  luminus.repl-server - nREPL server stopped 
+2017-09-07 18:20:41,819 [Thread-3] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:152733855, ignoring options. 
+2017-09-07 18:20:41,824 [Thread-3] INFO  luminus.http-server - HTTP server stopped 
+2017-09-07 18:20:41,824 [Thread-3] INFO  guestbook.env - 
+-=[guestbook has shut down successfully]=- 
+2017-09-07 18:20:41,834 [Thread-3] INFO  guestbook.core - #'guestbook.core/repl-server stopped 
+2017-09-07 18:20:41,834 [Thread-3] INFO  guestbook.core - #'guestbook.core/http-server stopped 
+2017-09-07 18:20:41,834 [Thread-3] INFO  guestbook.core - #'guestbook.handler/init-app stopped 
+2017-09-07 18:20:41,834 [Thread-3] INFO  guestbook.core - #'guestbook.db.core/*db* stopped 
+2017-09-07 18:20:52,499 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-09-07 18:20:53,206 [main] INFO  guestbook.env - 
+-=[guestbook started successfully using the development profile]=- 
+2017-09-07 18:20:53,296 [main] INFO  luminus.http-server - starting HTTP server on port 3005 
+2017-09-07 18:20:53,351 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-09-07 18:20:53,439 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-09-07 18:20:53,440 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-09-07 18:20:53,453 [main] INFO  guestbook.core - #'guestbook.config/env started 
+2017-09-07 18:20:53,453 [main] INFO  guestbook.core - #'guestbook.db.core/*db* started 
+2017-09-07 18:20:53,453 [main] INFO  guestbook.core - #'guestbook.handler/init-app started 
+2017-09-07 18:20:53,453 [main] INFO  guestbook.core - #'guestbook.core/http-server started 
+2017-09-07 18:20:53,453 [main] INFO  guestbook.core - #'guestbook.core/repl-server started 
+2017-09-07 18:26:37,857 [XNIO-1 task-7] INFO  guestbook.env - 
+-=[guestbook has shut down successfully]=- 
+2017-09-07 18:26:37,858 [XNIO-1 task-7] INFO  guestbook.env - 
+-=[guestbook started successfully using the development profile]=- 
+2017-09-07 18:27:49,100 [Thread-3] INFO  guestbook.env - 
+-=[guestbook has shut down successfully]=- 
+2017-09-07 18:27:49,111 [Thread-3] INFO  guestbook.core - #'guestbook.handler/init-app stopped 
+2017-09-07 18:27:49,111 [Thread-3] INFO  guestbook.core - #'guestbook.db.core/*db* stopped 
